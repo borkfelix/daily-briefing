@@ -121,43 +121,50 @@ def collect_new_videos(channels, state):
 
 def triage_all(videos):
     """
-    EIN Call für alle Nicht-high-priority-Videos.
+    EIN Call für alle Nicht-high-priority-Videos — aber in Batches
+    aufgeteilt, damit das Token-Limit nie überschritten wird.
     Gibt die Menge der als relevant eingestuften video_ids zurück.
     """
     candidates = [v for v in videos if v["priority"] != "high"]
     if not candidates:
         return set()
 
-    listing = "\n".join(
-        f"- id: {v['video_id']} | Kanal: {v['channel']} | Titel: {v['title']}"
-        for v in candidates
-    )
-    prompt = (
-        "Hier ist eine Liste neuer YouTube-Videos (id, Kanal, Titel):\n\n"
-        f"{listing}\n\n"
-        "Wähle die Videos aus, die für ein tägliches News-Briefing inhaltlich "
-        "substanziell wirken. Aussortieren: reiner Clickbait, Werbung, "
-        "Shorts/Teaser ohne Inhalt, Stream-Ankündigungen, Musik.\n"
-        "Antworte NUR mit einem JSON-Array der relevanten ids, z.B. "
-        '["abc123","def456"]. Kein anderer Text.'
-    )
-    resp = client.messages.create(
-        model=MODEL,
-        max_tokens=2000,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    text = resp.content[0].text.strip()
-    # JSON-Array robust extrahieren, auch wenn das Modell drumherum redet
-    start, end = text.find("["), text.rfind("]")
-    if start == -1 or end == -1:
-        print(f"Triage: unerwartete Antwort, nehme alle Kandidaten. Antwort: {text[:200]}")
-        return {v["video_id"] for v in candidates}
-    try:
-        ids = json.loads(text[start:end + 1])
-        return set(ids)
-    except json.JSONDecodeError:
-        print("Triage: JSON nicht parsebar, nehme alle Kandidaten.")
-        return {v["video_id"] for v in candidates}
+    TRIAGE_BATCH_SIZE = 400  # ~400 Titel pro Call bleibt klar unter dem Limit
+    relevant = set()
+
+    for start_idx in range(0, len(candidates), TRIAGE_BATCH_SIZE):
+        batch = candidates[start_idx:start_idx + TRIAGE_BATCH_SIZE]
+        listing = "\n".join(
+            f"- id: {v['video_id']} | Kanal: {v['channel']} | Titel: {v['title']}"
+            for v in batch
+        )
+        prompt = (
+            "Hier ist eine Liste neuer YouTube-Videos (id, Kanal, Titel):\n\n"
+            f"{listing}\n\n"
+            "Wähle die Videos aus, die für ein tägliches News-Briefing inhaltlich "
+            "substanziell wirken. Aussortieren: reiner Clickbait, Werbung, "
+            "Shorts/Teaser ohne Inhalt, Stream-Ankündigungen, Musik.\n"
+            "Antworte NUR mit einem JSON-Array der relevanten ids, z.B. "
+            '["abc123","def456"]. Kein anderer Text.'
+        )
+        resp = client.messages.create(
+            model=MODEL,
+            max_tokens=2000,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        text = resp.content[0].text.strip()
+        s, e = text.find("["), text.rfind("]")
+        if s == -1 or e == -1:
+            print(f"Triage-Batch: unerwartete Antwort, nehme alle. Antwort: {text[:150]}")
+            relevant.update(v["video_id"] for v in batch)
+            continue
+        try:
+            relevant.update(json.loads(text[s:e + 1]))
+        except json.JSONDecodeError:
+            print("Triage-Batch: JSON nicht parsebar, nehme alle dieses Batches.")
+            relevant.update(v["video_id"] for v in batch)
+
+    return relevant
 
 
 # ---------------------------------------------------------------- Schritt 4
@@ -290,11 +297,32 @@ def main():
     channels, x_categories = load_config()
     state = load_state()
 
+    # --- Erstlauf-Schutz -------------------------------------------------
+    # Beim allerersten Lauf (leerer State) gelten ALLE Videos in den
+    # RSS-Feeds als "neu" — das können Tausende sein. Die würden wir nicht
+    # sinnvoll verarbeiten wollen (Stunden Laufzeit, YouTube-Sperre,
+    # unnötige Kosten). Stattdessen markieren wir sie nur als gesehen und
+    # steigen ab dem nächsten Lauf ins normale Tagesdelta ein.
+    first_run = len(state) == 0
+
     # --- X-Sektion (unabhängig vom YouTube-Teil; None wenn nicht konfiguriert)
     x_section_html = build_x_briefing(client, MODEL, x_categories)
 
     new_videos = collect_new_videos(channels, state)
     print(f"{len(new_videos)} neue Videos gefunden.")
+
+    if first_run:
+        save_state(state)
+        print(f"Erstlauf: {len(new_videos)} Videos als gesehen markiert, "
+              "aber nicht verarbeitet. Ab dem nächsten Lauf gibt es nur "
+              "noch neue Videos pro Tag.")
+        # X-Sektion trotzdem senden, falls vorhanden — die ist ja tagesaktuell
+        if x_section_html:
+            html = build_email_html([], [], [], x_section_html)
+            subject = f"Daily Briefing (Erstlauf) – {datetime.now().strftime('%d.%m.%Y')}"
+            send_email(html, subject)
+            print("Erstlauf: X-Sektion per Mail gesendet.")
+        return
 
     # State sofort sichern: auch bei späterem Fehler werden Videos nicht
     # doppelt verarbeitet; lieber ein Video verpassen als Endlos-Duplikate.
