@@ -1,0 +1,6 @@
+requests
+pyyaml
+youtube-transcript-api
+anthropic
+yt-dlp
+beautifulsoup4

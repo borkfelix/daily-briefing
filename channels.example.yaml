@@ -1,0 +1,23 @@
+# Kopiere diese Datei zu channels.yaml und trage deine Kanäle ein.
+# id = die YouTube Channel-ID (beginnt meist mit "UC...")
+# priority: high = immer volle Zusammenfassung
+#           medium/low = wird erst per Titel-Check gefiltert, nur bei Relevanz zusammengefasst
+#
+# Tipp: Du musst die IDs nicht von Hand suchen -- nutze resolve_channel_id.py
+# mit einer Textdatei voller Kanal-URLs/Handles, siehe README.md
+
+# Kategorien für die X-Sektion (nur relevant, wenn IMAP konfiguriert ist).
+# Frei änderbar/erweiterbar — der Synthese-Prompt nutzt genau diese Liste.
+x_categories:
+  - "AI"
+  - "Health"
+  - "News / Politik"
+
+channels:
+  - name: "Beispielkanal 1"
+    id: "UCxxxxxxxxxxxxxxxxxxxxxx"
+    priority: high
+
+  - name: "Beispielkanal 2"
+    id: "UCyyyyyyyyyyyyyyyyyyyyyy"
+    priority: medium

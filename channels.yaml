@@ -1,0 +1,1125 @@
+x_categories:
+  - "AI"
+  - "Health"
+  - "News / Politik"
+
+channels:
+  - name: "Thorsten Wittmann Offiziell - Finanzielle Freiheit"
+    id: "UC-AuFwnIKhlrfMRRiMVrIqA"
+    priority: medium
+  - name: "gewaltig nachhaltig"
+    id: "UC-k-5F2j4CUzuwkx1QLRlpA"
+    priority: medium
+  - name: "Zahnärztin Dr. Andrea Jacob"
+    id: "UC-t4MVg_kVemFcRSA-UDEyw"
+    priority: medium
+  - name: "RPP Institut"
+    id: "UC0ABxG3__GwQSmJ8f8C-o4Q"
+    priority: medium
+  - name: "Anz FX Guides"
+    id: "UC0Noa0wp3PJRmgP6ih2VGAg"
+    priority: medium
+  - name: "Der Fachwerker"
+    id: "UC0f53UXX473vA3ZfzbI123w"
+    priority: high
+  - name: "WissenSchafft Freiheit - Ricardo Leppe"
+    id: "UC0nqWBKwrcxRSwTjjCOh_4g"
+    priority: medium
+  - name: "Will Vance"
+    id: "UC0wEFBGFdkCl1HOaM3AV_0w"
+    priority: high
+  - name: "Zulauf Consulting"
+    id: "UC11UiVDJTeSsU_iJV0QOu7Q"
+    priority: medium
+  - name: "Bildungsdesign"
+    id: "UC1Ho32Io5gxmob0gDW_249g"
+    priority: medium
+  - name: "Greator"
+    id: "UC2AnkjPy95aL0X-q9MPm2-Q"
+    priority: medium
+  - name: "ZENbra"
+    id: "UC2Sr1Lj3U44bLymL7fttyfA"
+    priority: medium
+  - name: "Beyond Fireship"
+    id: "UC2Xd-TjJByJyK2w1zNwY0zQ"
+    priority: medium
+  - name: "FilledStacks"
+    id: "UC2d0BYlqQCdF9lJfydl_02Q"
+    priority: medium
+  - name: "KaiserBauch"
+    id: "UC2e2EM3TEB8J6ctwTFSjYjA"
+    priority: medium
+  - name: "SpineCare Decompression and Chiropractic Center"
+    id: "UC2lvPVVm0Mv53QK7vdnC-rw"
+    priority: medium
+  - name: "Yuval Noah Harari "
+    id: "UC2m77KGMIKZCD0Kw35-4shQ"
+    priority: medium
+  - name: "Atlas Initiative für Recht und Freiheit"
+    id: "UC2xqE9CFcyhokm0VxdJBKpg"
+    priority: medium
+  - name: "allesaufdentisch"
+    id: "UC3D7t67AEmhyne7Ol2DE6nw"
+    priority: medium
+  - name: "Waldbund"
+    id: "UC3_JVHo5UUwBrGYA0SRX8dA"
+    priority: medium
+  - name: "allesdichtmachen"
+    id: "UC3_dHQpx8O9JT2LW1U2Beuw"
+    priority: medium
+  - name: "strager"
+    id: "UC3ewEwPUnReNd_mgwxOn9aQ"
+    priority: medium
+  - name: "Bernhard Dr. med. Ost"
+    id: "UC3uWeYT3YIdjFIBHQAFT_qA"
+    priority: medium
+  - name: "Scandinavia Facts"
+    id: "UC3vS3X6C6pvxl7JpAn24WuQ"
+    priority: medium
+  - name: "Dr. Eric Berg DC"
+    id: "UC3w193M5tYPJqF0Hi-7U-2g"
+    priority: medium
+  - name: "Energy Web"
+    id: "UC3y_C3oZnzVO3KF_yn6m45w"
+    priority: medium
+  - name: "ColdFusion"
+    id: "UC4QZ_LsYcvcq7qOsOhpAX4A"
+    priority: medium
+  - name: "Dr. Petra Bracht"
+    id: "UC4Z_qeU5I0DsLu7kblRKziw"
+    priority: medium
+  - name: "The Tie"
+    id: "UC4hGi04tIAotoDLPPdDOayw"
+    priority: medium
+  - name: "S. "
+    id: "UC4m2VO_sMIqmKFc5XLKcmeA"
+    priority: medium
+  - name: "Mark Hyman, MD"
+    id: "UC5IuDMmKWSsBFB0iKky6aEQ"
+    priority: medium
+  - name: "1aLage - Der Immobilienpodcast"
+    id: "UC5J05pQ9D5VjmkFd-xufMtA"
+    priority: medium
+  - name: "The Linux Experiment"
+    id: "UC5UAwBUum7CPN5buc-_N1Fw"
+    priority: medium
+  - name: "CppNow"
+    id: "UC5e__RG9K3cHrPotPABnrwg"
+    priority: medium
+  - name: "Horst Lüning (UnterBlog)"
+    id: "UC5i6nCpwmDVKo98sZD2AAcQ"
+    priority: high
+  - name: "Quantopian"
+    id: "UC606MUq45P3zFLa4VGKbxsg"
+    priority: medium
+  - name: "Blockware"
+    id: "UC678LSROK47l__G-pMnOMgA"
+    priority: medium
+  - name: "Marcus Ng"
+    id: "UC6Dy0rQ6zDnQuHQ1EeErGUA"
+    priority: medium
+  - name: "TechZone"
+    id: "UC6H07z6zAwbHRl4Lbl0GSsw"
+    priority: medium
+  - name: "Aktivcamper (Aktivcamper)"
+    id: "UC6NcGSjCouyR7zEJ6qyHtxA"
+    priority: medium
+  - name: "Mewing By Mike Mew"
+    id: "UC6eh59CVGAMTjxo6q9gCMZA"
+    priority: medium
+  - name: "Lehm-Laden"
+    id: "UC6g6mHgv6oRNDTqVOWZgKdQ"
+    priority: medium
+  - name: "Codemagic"
+    id: "UC6iPpISHwCnNreb53c0eYvg"
+    priority: medium
+  - name: "Thomas DeLauer"
+    id: "UC70SrI3VkT1MXALRtf0pcHg"
+    priority: medium
+  - name: "Norbert Hartwig"
+    id: "UC7QJyBsH4y4_ywv-SaUWPnw"
+    priority: medium
+  - name: "Rolling Tiny House"
+    id: "UC7ZElkacEZI9RiVRfLMa45Q"
+    priority: medium
+  - name: "Baufi Lab"
+    id: "UC7aeYL3KDbm86YTLDBJGeEw"
+    priority: medium
+  - name: "WeelDot"
+    id: "UC7c7arhyFcQRRXBk2jUKTvA"
+    priority: medium
+  - name: "Arbeitnehmeranwalt"
+    id: "UC7lf2ywOpiJe8gXBih-yQdQ"
+    priority: high
+  - name: "MediosApotheke"
+    id: "UC7s5loVz7y5ciKfhG9ka5iA"
+    priority: medium
+  - name: "Boston Dynamics"
+    id: "UC7vVhkEfw4nOGp8TyDk7RcQ"
+    priority: medium
+  - name: "Merogenomics"
+    id: "UC8LNZzsetswiQ4ltf4gmXzg"
+    priority: high
+  - name: "Dr. rer. nat. Markus Stark"
+    id: "UC8n7gJxLpy8kV1LdS-TEprQ"
+    priority: medium
+  - name: "Computerphile"
+    id: "UC9-y-6csu5WGm29I7JiwpnA"
+    priority: medium
+  - name: "Norbert Haering"
+    id: "UC99JefKKsQBmQ6SgbrdlbXg"
+    priority: medium
+  - name: "Bastek - Für mehr Zuhause"
+    id: "UC9FIQ5Fo3MaAz0zELToy51A"
+    priority: medium
+  - name: "Florian Homm"
+    id: "UC9Iq-yi4q3lsnSEXltzpqcQ"
+    priority: high
+  - name: "Mark Moss"
+    id: "UC9ZM3N0ybRtp44-WLqsW3iQ"
+    priority: medium
+  - name: "Balkonkraftwerk "
+    id: "UC9bbdYLoAFJSd_5lk4lDhdQ"
+    priority: medium
+  - name: "ClayTec"
+    id: "UCAGav3N5oD3HCerA1cz9RaA"
+    priority: medium
+  - name: "The Millennial Gardener"
+    id: "UCAXUwGU47XVY-0lH9qhUr1Q"
+    priority: medium
+  - name: "The Swedish Investor"
+    id: "UCAeAB8ABXGoGMbXuYPmiu2A"
+    priority: medium
+  - name: "RabbitHole"
+    id: "UCAoRYMGfAOkBbqlSrAsq_nA"
+    priority: medium
+  - name: "habubby"
+    id: "UCB2seXL8x76r2uhC8sVXP_w"
+    priority: medium
+  - name: "Tichys Einblick"
+    id: "UCB37CFICVTUlewYdbMSChIA"
+    priority: medium
+  - name: "Sören Schumann - Gesundheit Ganzheitlich"
+    id: "UCBB40LXX5Pl8h_lBdP5geaQ"
+    priority: high
+  - name: "The Darkside of VR"
+    id: "UCBCXSAHsjIpDyr-ozQ9RyxA"
+    priority: medium
+  - name: "Jack Nasher"
+    id: "UCBPoF5gW_irz-GK7bOTfiCA"
+    priority: medium
+  - name: "Heimwerker SPEZIAL"
+    id: "UCBRNstwYjUpeD5N9Vu8NjGA"
+    priority: medium
+  - name: "Kanzlei Rohring"
+    id: "UCBWSjDXjtzJf5fymXkgaDAQ"
+    priority: medium
+  - name: "Henrich Schröder GmbH"
+    id: "UCBWarKkPvcpFUDJtyeWTubg"
+    priority: medium
+  - name: "CryptoCred"
+    id: "UCBaU9NXRPjkLGgJy-M7RPCw"
+    priority: medium
+  - name: "Selfio SE - Do it yourself. Aber do it richtig."
+    id: "UCBkMT0X3ZAD44Ie_64hs4Sw"
+    priority: medium
+  - name: "erdKERN - Deutschland"
+    id: "UCBqEm2lcSY2msYIZnqPzugw"
+    priority: medium
+  - name: "Ingos Tips"
+    id: "UCCCvPsOSoR8LlefRv-rLMyg"
+    priority: medium
+  - name: "Individuelle Impfentscheidung"
+    id: "UCCppnAfYzQaf2ruYrvqH5rA"
+    priority: medium
+  - name: "Steuern mit Kopf"
+    id: "UCCwCa-faBqcY-zJ4PS1lCHA"
+    priority: medium
+  - name: "Peak Prosperity"
+    id: "UCD2-QVBQi48RRQTD4Jhxu8w"
+    priority: medium
+  - name: "Dr. Klein Privatkunden AG"
+    id: "UCD8fCDVPipSGyA3leX3j_-w"
+    priority: medium
+  - name: "Cryptotesters"
+    id: "UCDKNXo0N22G9m9Z5465dbUg"
+    priority: medium
+  - name: "1Life Investments"
+    id: "UCDaYHQ9LSJT6z8wb01o5X_w"
+    priority: medium
+  - name: "Harry S. Dent Jr."
+    id: "UCDkLCChDIvIKLaxIAqkhjuQ"
+    priority: medium
+  - name: "Dr Rangan Chatterjee"
+    id: "UCDnwlb3IQDPJtFysPUJbDFQ"
+    priority: high
+  - name: "New Order DAO "
+    id: "UCEBhl0Z6rNS1sS8zBZqN7JA"
+    priority: medium
+  - name: "Jigsaw Trading"
+    id: "UCEHjJdrOFvgPbmKLECrTqiw"
+    priority: medium
+  - name: "Empire"
+    id: "UCEOv-8wHvYC6mzsY2Gm5WcQ"
+    priority: medium
+  - name: "Prof. Dr. Volker Quaschning"
+    id: "UCEPZNMjVXBALuPZNKNua5Hg"
+    priority: medium
+  - name: "Krix - Der Hausgeräteprofi"
+    id: "UCEhnf8Wq7-mYESKPyhtn9Pg"
+    priority: medium
+  - name: "Dr. John Campbell"
+    id: "UCF9IOB2TExg3QIBupFtBDxg"
+    priority: medium
+  - name: "BugOutSurvival NRS"
+    id: "UCFAGDaCYVE7cGgBbT83GK8w"
+    priority: medium
+  - name: "Vitalstoffmedizin"
+    id: "UCFCPjhoVR7Z2iJUoS2kLIcw"
+    priority: medium
+  - name: "Marc Freukes -Zuhause im Wald"
+    id: "UCF_hrlNy-NtYCzWHq7liA1Q"
+    priority: medium
+  - name: "The Digital Prepper"
+    id: "UCFpToiXK6Z72YU7JFBzC-nQ"
+    priority: medium
+  - name: "Mcshen"
+    id: "UCFq8fCKLeXyuRVUNwyRbtUA"
+    priority: medium
+  - name: "Thomas Frank"
+    id: "UCG-KntY7aVnIGXYEBQvmBAQ"
+    priority: medium
+  - name: "MedCram - Medical Lectures Explained CLEARLY"
+    id: "UCG-iSMVtWbbwDDXgXXypARQ"
+    priority: medium
+  - name: "Intuitive"
+    id: "UCG53rw1uXxZ0_t9I5z8dktA"
+    priority: medium
+  - name: "Flossbach von Storch"
+    id: "UCGXecnnvZtccgknZGtppNiw"
+    priority: medium
+  - name: "Sonne Frei Haus"
+    id: "UCGoI004ZXiUb1NmY3zXBWTw"
+    priority: medium
+  - name: "The Diary Of A CEO"
+    id: "UCGq-a57w-aPwyi3pW7XLiHw"
+    priority: high
+  - name: "Sozialrat - Pflegegrad & Hilfsmittel"
+    id: "UCGxK97i4r8IsSFLealh9guQ"
+    priority: medium
+  - name: "The Money Movement with Jeremy Allaire"
+    id: "UCGzF9nOSNKQcMJOII3tl6_w"
+    priority: medium
+  - name: "Udo Heimann"
+    id: "UCHB4Rg9Hs31hXKDgzf_wLLg"
+    priority: medium
+  - name: "Chico Crypto"
+    id: "UCHop-jpf-huVT1IYw79ymPw"
+    priority: medium
+  - name: "Patric Heizmann"
+    id: "UCHvmt4MQWbp1aH-_UEibjfQ"
+    priority: medium
+  - name: "BaustellenGeflüster"
+    id: "UCI7xERwlDEftcuGNdLV6g3Q"
+    priority: medium
+  - name: "Florian Homm Charity"
+    id: "UCIPxQBQvoNIIydPNmWgssyA"
+    priority: medium
+  - name: "Bo Bleyl"
+    id: "UCIV0tE4cC3Ufk44-KVZqv7w"
+    priority: medium
+  - name: "Peter Akkies"
+    id: "UCIiotNwafpxC9eS-M_58VlA"
+    priority: medium
+  - name: "Jim Kwik"
+    id: "UCIm6PH37h6wUs_q7GR0LNtw"
+    priority: high
+  - name: "KenDBerryMD"
+    id: "UCIma2WOQs1Mz2AuOt6wRSUw"
+    priority: medium
+  - name: "Hazie and Motherhood"
+    id: "UCIrUY4TO-NsrZzjADMVZbaw"
+    priority: medium
+  - name: "mygotodoc"
+    id: "UCIvi__G1c2Y-0qBv1C3bQlQ"
+    priority: medium
+  - name: "Casgains Academy"
+    id: "UCJHObTFu75LOjJcmeAU5THA"
+    priority: medium
+  - name: "Norio"
+    id: "UCJUIsiPA0pSn2N4ZnTkGSRw"
+    priority: medium
+  - name: "DMSO & Co online academy Infokanal"
+    id: "UCJxDIxwO_H172w7dzTMsajg"
+    priority: medium
+  - name: "Chris Cooking Nashville"
+    id: "UCKBlg_heFbwW_TBcgipPbRQ"
+    priority: medium
+  - name: "Baunativ"
+    id: "UCKH-PudxjYwUANpZOO6agBQ"
+    priority: medium
+  - name: "Wealthion"
+    id: "UCKMeK-HGHfUFFArZ91rzv5A"
+    priority: medium
+  - name: "Dr. Johannes Hartl"
+    id: "UCKPhykk4ZWOcGYNllITceaQ"
+    priority: high
+  - name: "Fonds Finanz Maklerservice GmbH"
+    id: "UCKWc043NwJB_C4sH-6uFfWQ"
+    priority: medium
+  - name: "motivationaldoc"
+    id: "UCKcWSiffY8MpZ3NKav8LeRA"
+    priority: medium
+  - name: "Torsten Semler - Aufgewacht & Nachgedacht"
+    id: "UCKpBa_kUtJu92YrTyq-l1GQ"
+    priority: medium
+  - name: "Jörg Somborn [Baufinanzierungen]"
+    id: "UCL1tw7juXNF9T8D8oNsZjiA"
+    priority: medium
+  - name: "Project Veritas"
+    id: "UCL9PlYkRD3Q-RZca6CCnPKw"
+    priority: medium
+  - name: "schlau energiesparen"
+    id: "UCLS1byX1jZWZ8Vbn0CcYaPA"
+    priority: high
+  - name: "Jordan B Peterson"
+    id: "UCL_f53ZEJxp8TtlOkHwMV9Q"
+    priority: medium
+  - name: "marketdelta"
+    id: "UCLdZZPcnxZLB_G7bzG8ZM7A"
+    priority: medium
+  - name: "Jack The Solar Guy"
+    id: "UCLfQnIICWOaXTXa4MLDP4Uw"
+    priority: medium
+  - name: "Nugget's News"
+    id: "UCLo66QVfEod0nNM_GzKNxmQ"
+    priority: medium
+  - name: "Max Maher"
+    id: "UCLr9nHPNpj7U3096nEo8Qfg"
+    priority: medium
+  - name: "World of Value"
+    id: "UCLyA-2p3V8yoI_rBYyoQgPQ"
+    priority: medium
+  - name: "Rakiz Farooq"
+    id: "UCM4kmLaBF10J2qsezFz-zxA"
+    priority: medium
+  - name: "Justin Bram"
+    id: "UCM7ppuKNvT47DfbYEZv2eZA"
+    priority: medium
+  - name: "CppCon"
+    id: "UCMlGfpWw-RUdWX_JbLCukXg"
+    priority: medium
+  - name: "Felix Goldbach "
+    id: "UCMlirlzQIUpfb3uC5LXB17Q"
+    priority: medium
+  - name: "vagabundotinyhouse"
+    id: "UCNO5LGtA6z74cM2O2mHtPTg"
+    priority: medium
+  - name: "Nutrition Detective"
+    id: "UCNbgzk3ouCb3r-pbA38fxjQ"
+    priority: medium
+  - name: "Rebel Capitalist"
+    id: "UCNjyEXSvYUUCzagFAKmaJ1Q"
+    priority: medium
+  - name: "Hausbau Anleitungen"
+    id: "UCO0nIznovD5pT97UMYHEJ1g"
+    priority: medium
+  - name: "Steuern steuern® - StB David Kasper"
+    id: "UCOC69VeBAEtICstzLUb1dNw"
+    priority: medium
+  - name: "Dr. med. Rainer Didier"
+    id: "UCOKD1Z6ZMx0EEjusiOIebBw"
+    priority: medium
+  - name: "Scytale Digital"
+    id: "UCOOAKig4eE-xi5mT_0aPq9Q"
+    priority: medium
+  - name: "Herr Anwalt"
+    id: "UCOfQ0nZG7YClwNSaL-xULKQ"
+    priority: medium
+  - name: "PlantMoney"
+    id: "UCOjYz37H8-nB0_VD4wUCIyQ"
+    priority: medium
+  - name: "Leben mit der Energiewende"
+    id: "UCOrM_L8GhXgQ4AsD-Xba6Ew"
+    priority: medium
+  - name: "Jesse Eckel"
+    id: "UCPFMk8WxX3SJKy1jh61xxGw"
+    priority: medium
+  - name: "Sahra Wagenknecht"
+    id: "UCPH3ZPeqWqRVZ_ef4vOZgSw"
+    priority: medium
+  - name: "NuoViso"
+    id: "UCPOmsF_XgQohcJhdj58zshg"
+    priority: medium
+  - name: "Fernsehanwalt"
+    id: "UCPVSOxu3DOfV3SUz2K4LdIw"
+    priority: high
+  - name: "Weiser mit Kaiser | Philosophie"
+    id: "UCPZGK_ueQ5sSKxNYdxE2RVg"
+    priority: medium
+  - name: "Meat 'n' Great"
+    id: "UCPgVoIgyC8iLQ-lgzGOlm4g"
+    priority: medium
+  - name: "Lebenskraftpur"
+    id: "UCPjj6b4pxwkDyaRdUdV8_RA"
+    priority: medium
+  - name: "Otelier"
+    id: "UCPvnV-SUnbnxEDWZlk0rqEA"
+    priority: medium
+  - name: "vprojekte"
+    id: "UCQ-nuHHsIQh2n7PE9FP4tyg"
+    priority: medium
+  - name: "TheTreehouse.Shop"
+    id: "UCQO693laHH16rtCrxAuEqOA"
+    priority: medium
+  - name: "Sky View Trading"
+    id: "UCQU2q2zY1oejRRzK66fIAzA"
+    priority: medium
+  - name: "Nelson Cremers - SteuerMentoring"
+    id: "UCQbv56SFLywZr9MwciWq0uw"
+    priority: medium
+  - name: "Fabian Kowallik"
+    id: "UCQlvHgLN06bF7YpvAgqg91Q"
+    priority: high
+  - name: "JetsonHacks"
+    id: "UCQs0lwV6E4p7LQaGJ6fgy5Q"
+    priority: medium
+  - name: "CHECKER WELT"
+    id: "UCQtsd17U8NOM1VRI8oxdwiQ"
+    priority: medium
+  - name: "Alertatron"
+    id: "UCQxprSUy7O0sLw0HVf23xDQ"
+    priority: medium
+  - name: "Vattenfall Deutschland"
+    id: "UCQz0thmRLbm2mVDJwmVjsOg"
+    priority: medium
+  - name: "Paul Brandenburg (Backup)"
+    id: "UCR0s1nrpmlSmfVWRfBlEazw"
+    priority: medium
+  - name: "MotivationHub"
+    id: "UCR54lF_dD3f-8srmRqnTwgQ"
+    priority: medium
+  - name: "betaCare"
+    id: "UCRRV3AULpJ9p1xMkFqQPIXA"
+    priority: high
+  - name: "SubjectZeroX"
+    id: "UCRXRbi80k0_vcIfgpOSerTg"
+    priority: medium
+  - name: "Prof. Dr. Christoph Juhn [Steuerberater]"
+    id: "UCRXSpcj8K_LKN4eVaXFJkmg"
+    priority: medium
+  - name: "Dr. med. Ingfried Hobert"
+    id: "UCRtDHca1JV_pbnzbl9Bhq-Q"
+    priority: medium
+  - name: "Dr. med. Dirk Wiechert"
+    id: "UCRutYLy5Z6cUIZGxg5QMMnA"
+    priority: medium
+  - name: "Oxford Blockchain Society"
+    id: "UCRwysJnKnSWOrxT2XOImQ0w"
+    priority: medium
+  - name: "GoldRevolution"
+    id: "UCS1zeeSbVCjCJ1fixgwQAsA"
+    priority: medium
+  - name: "Prof. Dr. Christian Rieck"
+    id: "UCSExr_QUT6h-4sGW5hGjrCA"
+    priority: medium
+  - name: "Lex Fridman"
+    id: "UCSHZKyawb77ixDdsGog4iWA"
+    priority: medium
+  - name: "Reso Coder"
+    id: "UCSIvrn68cUk8CS8MbtBmBkA"
+    priority: medium
+  - name: "Andy Julow"
+    id: "UCSKeK_8IzsqwKQBJuIGJPaA"
+    priority: medium
+  - name: "Revest Finance"
+    id: "UCSLbre2c-S2mnlAdne0-5JA"
+    priority: medium
+  - name: "Offys Workshop"
+    id: "UCSUn0G38wUfKzgKRVcP8yRQ"
+    priority: medium
+  - name: "Marc Friedrich"
+    id: "UCSiFC1DCXr3p1YDzyu9rogA"
+    priority: high
+  - name: "Vejon Health"
+    id: "UCSxeKmlI8XLrI1eMaqqM-kg"
+    priority: high
+  - name: "CSmedicus / MWM-proof"
+    id: "UCSzKajtXRNA0KDYylzTxIDQ"
+    priority: medium
+  - name: "Microsoft HoloLens"
+    id: "UCT2rZIAL-zNqeK1OmLLUa6g"
+    priority: medium
+  - name: "Wasserfilter-Ratgeber"
+    id: "UCTF1m3vRGONSjL8qzjjhcBA"
+    priority: medium
+  - name: "SpaceWeatherNews (S0)"
+    id: "UCTiL1q9YbrVam5nP2xzFTWQ"
+    priority: high
+  - name: "Quanta Magazine"
+    id: "UCTpmmkp1E4nmZqWPS-dl5bg"
+    priority: medium
+  - name: "So geht Ungarn!"
+    id: "UCTuxzwQAG67miOpRPWBxJbA"
+    priority: medium
+  - name: "Dr. med. Christof Metzler"
+    id: "UCU1C8HJgelRsQTJQsVTb0Aw"
+    priority: medium
+  - name: "The Platonic Trickster"
+    id: "UCUEaBQ9Wfc36u2dPKdxgTOw"
+    priority: medium
+  - name: "No Boilerplate"
+    id: "UCUMwY9iS8oMyWDYIe6_RmoA"
+    priority: medium
+  - name: "Fertighausexperte"
+    id: "UCUZjMbVjSEh2s04uFKXZCtQ"
+    priority: medium
+  - name: "eingeSCHENKt.tv"
+    id: "UCUtUTpAbCtIKOalhAK-hxZA"
+    priority: medium
+  - name: "London App Brewery"
+    id: "UCVD5Vh9LhLBxp3o1vRNyf_w"
+    priority: medium
+  - name: "Klose - Sozialrecht"
+    id: "UCVL9iCGrdLKNdxKa81Ht5lQ"
+    priority: medium
+  - name: "Proton Guides & Updates"
+    id: "UCVThyXNYXDC9UhDbI8LtghQ"
+    priority: medium
+  - name: "JoergSprave"
+    id: "UCVZlxkKqlvVqzRJXhAGq42Q"
+    priority: medium
+  - name: "Malermeister Andy"
+    id: "UCVjjh1k4ITXXMv3kab3aY3g"
+    priority: medium
+  - name: "Fernsehanwalt I Arbeitgeber Coaching"
+    id: "UCVkEjG9M0NHFXibhYcbXzdw"
+    priority: high
+  - name: "Joel Johnson (j2i.net)"
+    id: "UCW550eUtV_tVQ1h6131AipA"
+    priority: medium
+  - name: "Mario Lochner"
+    id: "UCWFnsgnkOAc0D7OweruB3hA"
+    priority: medium
+  - name: "Lichtblock"
+    id: "UCWM6pNbKon9KdpBotdAijHg"
+    priority: medium
+  - name: "Caringspaces"
+    id: "UCWMSvYrUneTuG8GHz5C0w0w"
+    priority: medium
+  - name: "Jeremy Howard"
+    id: "UCX7Y2qWriXpqocG97SFW2OQ"
+    priority: medium
+  - name: "Doc Malik"
+    id: "UCX8OIUEQ0DSo_jpqQoqOXyw"
+    priority: medium
+  - name: "FightMediocrity"
+    id: "UCXLesGEfmyhxqOjoAqhRwhA"
+    priority: medium
+  - name: "The Intellectual People Podcast"
+    id: "UCXMw_bZWBMtRWNJQfTJ38kA"
+    priority: medium
+  - name: "OpenAI"
+    id: "UCXZCJLdBC09xxGZ6gcdrc6A"
+    priority: medium
+  - name: "NEWSRio"
+    id: "UCXfTph9i3HaWKwZS5Clv8TA"
+    priority: medium
+  - name: "Naturbaustoffhaus"
+    id: "UCXgOk2ARpcA0pvL1KizXHrQ"
+    priority: medium
+  - name: "Martin Haditsch"
+    id: "UCXgusTRtGbCZKW8Yc0T9vfQ"
+    priority: medium
+  - name: "Bundesbauministerium"
+    id: "UCXumOxIxIDGVmV2W_WZcYbA"
+    priority: medium
+  - name: "Jürgen Todenhöfer"
+    id: "UCXyU_yKvZSd16txaICRVYRw"
+    priority: medium
+  - name: "Haustechnik Voßwinkel GmbH"
+    id: "UCYCXKD6Xejf8bl0Y9TsHqqg"
+    priority: medium
+  - name: "Biolandkanal"
+    id: "UCYh8XLVksREQiI3qN1YCHyw"
+    priority: medium
+  - name: "FAIR TALK"
+    id: "UCZ017XP2Yq3fNRCiCr7OsrA"
+    priority: medium
+  - name: "Wundermix"
+    id: "UCZGtMP1Qf2IHTi38o6ZRWgw"
+    priority: medium
+  - name: "Dr Vladimir Zelenko M.D."
+    id: "UCZMIBG1kIYUnlSZJ_ev1p3g"
+    priority: medium
+  - name: "Anwälte für Aufklärung e.V."
+    id: "UCZoYTIAUhaVhmqNryEbz31g"
+    priority: medium
+  - name: "Outdoor Chiemgau"
+    id: "UCZt4nIjVCTcvVYzjp_VTJew"
+    priority: medium
+  - name: "Dr. Michael Nehls "
+    id: "UC_Ded3Gn7MCTzPg1LOZ7DxA"
+    priority: high
+  - name: "The Comeback Kids"
+    id: "UC_ODNEPbkVolMCWSjchNdfA"
+    priority: medium
+  - name: "UpTrend"
+    id: "UC_OPbr6uIZJOgZsjBQgXcnA"
+    priority: medium
+  - name: "Marcel Barz"
+    id: "UC_VvUB8cMElMk1Nz-iLNWgw"
+    priority: medium
+  - name: "Alles wird Strom"
+    id: "UC_arb9ZgJoqLR3smP2UuFgg"
+    priority: medium
+  - name: "Prof. Andreas Michalsen"
+    id: "UC_bJGqYqUoejvCaXWN3gY1A"
+    priority: medium
+  - name: "scharfes Handwerk"
+    id: "UC_nfPxAlgo6FgZTmfAKQ7Ow"
+    priority: medium
+  - name: "SelfBio"
+    id: "UC_r9BZ45Cxqs1sJCXJrK_lA"
+    priority: medium
+  - name: "dunK1x"
+    id: "UC_rC-5HV63LKEHevjVtP77A"
+    priority: medium
+  - name: "Geert Vanden Bossche"
+    id: "UC_yhGQiJ5lTmOaoIQA91GzA"
+    priority: medium
+  - name: "Be Inspired | CRYPTO"
+    id: "UCa0b11GYO3dsTxG4nD9RfuQ"
+    priority: medium
+  - name: "Ernst Wolff"
+    id: "UCaICID7P7gdRoVeeXbj-s7w"
+    priority: medium
+  - name: "Be Inspired"
+    id: "UCaKZDEMDdQc8t6GzFj1_TDw"
+    priority: medium
+  - name: "Andreas Schmitz (Der Akku Doktor)"
+    id: "UCaWbn671XbI1GLTgndyI7gQ"
+    priority: medium
+  - name: "M1Molter - Der Heimwerker"
+    id: "UCaba0JwZkHrUHDIb_hgIuCA"
+    priority: medium
+  - name: "DeFi Dad"
+    id: "UCatItl6C7wJp9txFMbXbSTg"
+    priority: medium
+  - name: "Johann Beurer - HeizkostenREBELL"
+    id: "UCawH238cAF4r2wMDZeHIwGg"
+    priority: medium
+  - name: "Deutsches Schutzraum-Zentrum"
+    id: "UCb1xrtvlUFjLBVooZJtrPpQ"
+    priority: medium
+  - name: "Two Minute Papers"
+    id: "UCbfYPyITQ-7l4upoX8nvctg"
+    priority: high
+  - name: "ExplainingComputers"
+    id: "UCbiGcwDWZjz05njNPrJU7jA"
+    priority: medium
+  - name: "misterwater GmbH"
+    id: "UCbpkRkfDTyGw92uqCBjzdnw"
+    priority: medium
+  - name: "Günter Hannich"
+    id: "UCbpthBcgOhJgpe0KOq-MxCQ"
+    priority: medium
+  - name: "bonotos"
+    id: "UCchH1esPCWvzigavq5JDwlQ"
+    priority: medium
+  - name: "Backyard Bill"
+    id: "UCcsS-8Zg6c0pfH_8w5SKpCw"
+    priority: medium
+  - name: "Modern Trader"
+    id: "UCcv4I0ttaW6O1QRSKw4O9tw"
+    priority: medium
+  - name: "Calamity"
+    id: "UCdD2RzzNNwNahOq3KCLlkvQ"
+    priority: medium
+  - name: "Lechner Cube"
+    id: "UCdD6Lw7oU93vfICOe2FJF-Q"
+    priority: medium
+  - name: "Dennis Witthus"
+    id: "UCdPCrCxcLyL7DQGo3P6ZfUA"
+    priority: medium
+  - name: "Waldner Worship"
+    id: "UCdgvkanspoiupNua40EQzCg"
+    priority: medium
+  - name: "TechWorld with Nana"
+    id: "UCdngmbVKX1Tgre699-XLlUA"
+    priority: medium
+  - name: "Alpha Only"
+    id: "UCe2UI067T5kbjpwaHot7I6A"
+    priority: medium
+  - name: "Crypto Snooper"
+    id: "UCeCcEshJzCF_Z0bxqg39kxw"
+    priority: medium
+  - name: "Gator Green"
+    id: "UCeFqrGjKmUEbIDV1bAc_tyA"
+    priority: medium
+  - name: "xyz"
+    id: "UCeHRNR2ZzEtWXgiVDsRETYQ"
+    priority: medium
+  - name: "Survival Masters"
+    id: "UCeHi-MNKIWIKLeI-dBbBoIg"
+    priority: medium
+  - name: "Cashkurs.com"
+    id: "UCeKWO9gvmAyoPiEuaIwnGHQ"
+    priority: medium
+  - name: "healthy little things"
+    id: "UCetwNAzAErksVPCIXM1D0LA"
+    priority: medium
+  - name: "Emil Kalinowski"
+    id: "UCewVHqDcqtBbCJehtzc8ADQ"
+    priority: medium
+  - name: "First Principles of Computer Vision"
+    id: "UCf0WB91t8Ky6AuYcQV0CcLw"
+    priority: medium
+  - name: "MUCplusplus"
+    id: "UCf3tX0nf8EFIwmgQBH6PIGw"
+    priority: medium
+  - name: "Aktionskreis Energie"
+    id: "UCfF3drhW73MQ3CkHw9yWMXg"
+    priority: medium
+  - name: "MP - my life"
+    id: "UCfFhfkJOU_g2bn-hxkGhv6w"
+    priority: medium
+  - name: "Kolten "
+    id: "UCfKnLF6YkyPU8mSneCQVCdw"
+    priority: medium
+  - name: "Centrifuge"
+    id: "UCfNkoq7YLrr8MeSJ3a6jVcA"
+    priority: medium
+  - name: "ENERGIESPARKOMMISSAR"
+    id: "UCfaiQVlrxIFnPkodykZ-zFw"
+    priority: medium
+  - name: "Assaya"
+    id: "UCffGHscWBy6POvx3IivL90w"
+    priority: medium
+  - name: "Garten Eden Projekt"
+    id: "UCfjLuqLwYtz964h1J7TWiYw"
+    priority: medium
+  - name: "Für die Meinungsfreiheit!"
+    id: "UCfmOzrUPX4shSByl7fQPmGg"
+    priority: medium
+  - name: "wissenschaft4#allesdichtmachen"
+    id: "UCfvj8hWvfNTqW_yATVtIT9Q"
+    priority: medium
+  - name: "Vortex Radar"
+    id: "UCgLr7xoTU3XgAeLrEYp51sw"
+    priority: medium
+  - name: "Snackybox"
+    id: "UCgdyswgFk7pcF6SFcNaWthA"
+    priority: medium
+  - name: "Daniele Ganser"
+    id: "UCgrHgV7atBftQk8dXwIDktg"
+    priority: medium
+  - name: "JFrog"
+    id: "UCh2hNg76zo3d1qQqTWIQxDg"
+    priority: medium
+  - name: "ARCenergie"
+    id: "UChNStk2dp1E7QjXHuidsJgQ"
+    priority: high
+  - name: "Matt Wolfe"
+    id: "UChpleBmo18P08aKCIgti38g"
+    priority: medium
+  - name: "Mitch Jones"
+    id: "UChyb3cNnukKT37uo12zbdgw"
+    priority: medium
+  - name: "Fugu"
+    id: "UCi0jRtEsfKM9MuZ4RFTl5gw"
+    priority: medium
+  - name: "Bret Weinstein"
+    id: "UCi5N_uAqApEUIlg32QzkPlg"
+    priority: high
+  - name: "POLITIK SPEZIAL - Stimme der Vernunft "
+    id: "UCi5RJM_p1NajcGdBQfjyU4A"
+    priority: medium
+  - name: "SoVD SH - Sozialrecht verständlich erklärt"
+    id: "UCiCgl_4cNWblReDDxLvnnzQ"
+    priority: medium
+  - name: "Spicy Moustache"
+    id: "UCiNqkJzyd_5qNm7jw_FcJqw"
+    priority: medium
+  - name: "Crypto Daddi"
+    id: "UCiOywp0JJGpKWSiICABMvbA"
+    priority: medium
+  - name: "Vermietertagebuch - Alexander Raue"
+    id: "UCiTJladOHCMkKndVBsn23VQ"
+    priority: medium
+  - name: "Peter F. Mayer"
+    id: "UCib9XxYHaHjRMzByChBqbTg"
+    priority: medium
+  - name: "ThisWeekInFascism"
+    id: "UCifMC6kFVQcYeU6QBOK-wZg"
+    priority: medium
+  - name: "MR.STEUER"
+    id: "UCigtuurEEt3QLwazM_9OvVA"
+    priority: medium
+  - name: "EIKE - European Climate and Energy Institute"
+    id: "UCiiymOmMRMZV9GZSsfTX4qw"
+    priority: medium
+  - name: "Sozialverband VdK Baden Württemberg e.V."
+    id: "UCiqkEjSVgQZRv5tMGaSrYSg"
+    priority: medium
+  - name: "Empfehlungsfuchs"
+    id: "UCjSztsVqyiGct5NPXlUk8VA"
+    priority: medium
+  - name: "Allgemeine Bauzeitung"
+    id: "UCjkE1P7YotuA4v7DgqemRkw"
+    priority: medium
+  - name: "O’Keefe Media Group"
+    id: "UCjl4caubo8dWBlNTaMcrVQg"
+    priority: medium
+  - name: "The Hated One"
+    id: "UCjr2bPAyPV7t35MvcgT3W8Q"
+    priority: medium
+  - name: "KDAB"
+    id: "UCjsJkTJSZ5G7ewH2uf08t0A"
+    priority: medium
+  - name: "The Engineering Mindset"
+    id: "UCk0fGHsCEzGig-rSzkfCjMw"
+    priority: medium
+  - name: "Der Raumversteher"
+    id: "UCkByi5yIbG5qUbJppOdvILA"
+    priority: medium
+  - name: "Psych2Go"
+    id: "UCkJEpR7JmS36tajD34Gp4VA"
+    priority: medium
+  - name: "vector-of-bool"
+    id: "UCkYGy96LXk3g-d6kP22aSDA"
+    priority: medium
+  - name: "Forward Guidance"
+    id: "UCkrwgzhIBKccuDsi_SvZtnQ"
+    priority: medium
+  - name: "Paul Brandenburg"
+    id: "UCksi8_CDUF0DbnLrgIoRrRg"
+    priority: medium
+  - name: "Kerman Kohli"
+    id: "UCksmBX-Jj_FGYX3EJahKW3Q"
+    priority: medium
+  - name: "Kreidezeit Naturfarben GmbH"
+    id: "UClwEUGmabIR07-J_lNILteA"
+    priority: medium
+  - name: "Investmentpunk"
+    id: "UCmEN5ZnsHUXIxgpLitRTmWw"
+    priority: medium
+  - name: "John Flutter"
+    id: "UCmMziVBsftvmuuFFT5r0nQA"
+    priority: medium
+  - name: "Buteyko Clinic International"
+    id: "UCm_I6Xwqg5j3DjMNbKqs1mA"
+    priority: medium
+  - name: "Bill Gates"
+    id: "UCnEiGCE13SUI7ZvojTAVBKw"
+    priority: medium
+  - name: "Unternehmerkanal"
+    id: "UCnYhrUdZTBRe2s1pu-mF2mg"
+    priority: medium
+  - name: "Simply Explained"
+    id: "UCnxrdFPXJMeHru_b4Q_vTPQ"
+    priority: medium
+  - name: "AMM Akademie für menschliche Medizin"
+    id: "UCnyhvHRJCpLb7L8WzxEaSlg"
+    priority: medium
+  - name: "Robert Franz"
+    id: "UCo3KvUOtPnsijOhEcEf9nvg"
+    priority: medium
+  - name: "Survival Shop ueberlebenskunst.at"
+    id: "UCoA_RziUhm4X_p8eUD2HfCA"
+    priority: medium
+  - name: "Ali Abdaal"
+    id: "UCoOae5nYA7VqaXzerajD0lg"
+    priority: high
+  - name: "Wissenschaftlich Investieren"
+    id: "UCoSKQ9e_DsYpFVsuUKaus9A"
+    priority: medium
+  - name: "Euler Finance"
+    id: "UCoeP9dvbKoL17nqkNnUJBkg"
+    priority: medium
+  - name: "QS24 - Swiss Health Television"
+    id: "UCombGe_D0xJOAtLgKh9HbXA"
+    priority: medium
+  - name: "Jason Fung"
+    id: "UCoyL4iGArWn5Hu0V_sAhK2w"
+    priority: medium
+  - name: "Dr. Arman Edalatpour"
+    id: "UCp4Gd_ZCgFOCJKBp-fySl4A"
+    priority: medium
+  - name: "Alhambra Investments"
+    id: "UCp8Xi-sPTL9VyZpHTPfLA-g"
+    priority: medium
+  - name: "Thomas Wolff"
+    id: "UCpMbRTDVZ1bYSz8S9vsCy_A"
+    priority: medium
+  - name: "Neugier schafft Wissen"
+    id: "UCpepfXhxdjwxLyRUmFnZY_Q"
+    priority: medium
+  - name: "George Gammon"
+    id: "UCpvyOqtEc86X8w8_Se0t4-w"
+    priority: medium
+  - name: "Coin Bureau"
+    id: "UCqK_GSMbpiV8spgD3ZGloSw"
+    priority: medium
+  - name: "Gunnar Kaiser - in Memoriam"
+    id: "UCqU7kO7e9HQo6QpQ6l3Nk_A"
+    priority: medium
+  - name: "MetCancer"
+    id: "UCqUucFCV4rSSOxqpVw-hDFg"
+    priority: medium
+  - name: "Bitterliebe"
+    id: "UCqWU7S6lff05Rswu9AT3ZhQ"
+    priority: medium
+  - name: "Anthropic"
+    id: "UCrDwWp7EBBv4NwvScIpBDOA"
+    priority: medium
+  - name: "Martin Wehrle: Coaching- und Karrieretipps"
+    id: "UCrQCutWhY0eJNmARDwkoQgQ"
+    priority: medium
+  - name: "Andrea Bizzotto"
+    id: "UCrTnsT4OYZ53l0QGKqLeD5Q"
+    priority: medium
+  - name: "Eurodollar University"
+    id: "UCrXNkk4IESnqU-8GMad2vyA"
+    priority: medium
+  - name: "Coderized"
+    id: "UCrsLPlwxUInDoNubOP85EWQ"
+    priority: medium
+  - name: "Drbeen Medical Lectures"
+    id: "UCrtd2wePvAl6RN_D-9jWVQQ"
+    priority: medium
+  - name: "Kaminofen Berater"
+    id: "UCrzsMRs-02ZgrtmpLnLIZ_w"
+    priority: medium
+  - name: "Techlore"
+    id: "UCs6KfncB4OV6Vug4o_bzijg"
+    priority: medium
+  - name: "Fireship"
+    id: "UCsBjURrPoezykLs9EqgamOA"
+    priority: high
+  - name: "Joseph Wang"
+    id: "UCsJxlgjWIOcuEbOJZ591V3Q"
+    priority: medium
+  - name: "Emma Hubbard"
+    id: "UCs_CXnifPUvP1zKIpgAYwqw"
+    priority: medium
+  - name: "ZettaScale"
+    id: "UCslbiyiqgOAPMjCrPWIfQ5Q"
+    priority: medium
+  - name: "Virtual Reality Oasis"
+    id: "UCsmk8NDVMct75j_Bfb9Ah7w"
+    priority: medium
+  - name: "Zeihan on Geopolitics"
+    id: "UCsy9I56PY3IngCf_VGjunMQ"
+    priority: medium
+  - name: "Heat Geek"
+    id: "UCt08e2_TicHGW1GqP-zqKDQ"
+    priority: medium
+  - name: "Liebscher & Bracht | Die Schmerzspezialisten"
+    id: "UCt3pGaMM9F40McD-SnAym0g"
+    priority: medium
+  - name: "Interessengemeinschaft Gesunder Boden e. V."
+    id: "UCtpHmawddnprhKDTBUoYGoA"
+    priority: medium
+  - name: "smartsteuer"
+    id: "UCu02GkFNrMRzwysT2SEmNrQ"
+    priority: high
+  - name: "42 Macro"
+    id: "UCu0L0QCubkYD3Cd9jSdxTNQ"
+    priority: medium
+  - name: "Open Minded Approach"
+    id: "UCu3L01D4b8LKqP4r-F9K6sQ"
+    priority: medium
+  - name: "Technikwerkstatt 4.0"
+    id: "UCu_iMW3vZEg206D4MZ5ajlQ"
+    priority: medium
+  - name: "The Rich Dad Channel"
+    id: "UCuifm5ns5SRG8LZJ6gCfKyw"
+    priority: medium
+  - name: "Steuerberater Stefan Mücke"
+    id: "UCuzRXB-EOz1FZx2l7xw2nQQ"
+    priority: medium
+  - name: "Rohlmann Steuerberatung"
+    id: "UCvCgH_q7x6ikOXFmqVRwPEg"
+    priority: medium
+  - name: "The Daily Gwei"
+    id: "UCvCp6vKY5jDr87htKH6hgDA"
+    priority: medium
+  - name: "MRTK Microsoft"
+    id: "UCvLkAyMUYkVIXSF-d7D090w"
+    priority: medium
+  - name: "TheIronSifu"
+    id: "UCvlmsuAOQcJfFam-XhRZiow"
+    priority: medium
+  - name: "Gablok Deutschland GmbH"
+    id: "UCvmG3AMvJ7XqSLzzXU0NAuA"
+    priority: medium
+  - name: "GGBLahnstein"
+    id: "UCvqX-hdhZJQc7rrupL1UrGQ"
+    priority: medium
+  - name: "Crypto Mathemagician"
+    id: "UCw0Lj-zLE-OuoWwN0L9nm9Q"
+    priority: medium
+  - name: "Hamed Hamedi"
+    id: "UCwEIlnmf4DOvNKLIvK0TGcA"
+    priority: medium
+  - name: "j0nasr BETA"
+    id: "UCwe2gDsvv6NrO9xagriEiCA"
+    priority: medium
+  - name: "Klimanachrichten"
+    id: "UCwnMKIg6RSvAuLbeN1oqWZg"
+    priority: medium
+  - name: "Bastian Barucker "
+    id: "UCwsYC-0PlaDa5A0_Nt4YXBw"
+    priority: medium
+  - name: "Punkrat"
+    id: "UCx2jjr3IUikqEfalufE5LOw"
+    priority: medium
+  - name: "KREATIVTOBI"
+    id: "UCx9okhf0reY3k8TaSxs2sTQ"
+    priority: medium
+  - name: "C++ Weekly With Jason Turner"
+    id: "UCxHAlbZQNFU2LgEtiqd2Maw"
+    priority: medium
+  - name: "Energiesparen leicht gemacht"
+    id: "UCxRAKvRih51mqk76jFzRbrQ"
+    priority: medium
+  - name: "Raphael Bonelli (RPP Institut)"
+    id: "UCxh5vvubY-tXai-37iMqpQQ"
+    priority: medium
+  - name: "Dr. Schmiedel"
+    id: "UCxzvS-HbJ7lVzvECnZRS87w"
+    priority: medium
+  - name: "Freizeit"
+    id: "UCy25CufgW6kbTHpEBKfPsow"
+    priority: medium
+  - name: "Jonas Winkler"
+    id: "UCy2Vejpl6vpeJi_hsUt9p0Q"
+    priority: medium
+  - name: "Langemann Medien"
+    id: "UCycuPgtpxdu_6-1nVXgzPmg"
+    priority: medium
+  - name: "Artell Blender"
+    id: "UCynp5-7sIegtv87iWM45ATA"
+    priority: medium
+  - name: "Zentrum der Gesundheit"
+    id: "UCz0YyLlbKfBGQxq4OrJfTMA"
+    priority: medium
+  - name: "Do drywall / loft conversion yourself"
+    id: "UCz1rBqNh2cCxn7pwT6nM5Gw"
+    priority: medium
+  - name: "GegenHartz"
+    id: "UCz4NS2XEAfFfla1MJPcv-1Q"
+    priority: high
+  - name: "Kruste&Krume"
+    id: "UCzSGzKix1CXmIRE0W8xLh0A"
+    priority: medium
+  - name: "Pelletofen Studio Röhrl"
+    id: "UCzTYTGsMIw_2-SCy2aL2ZCw"
+    priority: medium
+  - name: "Martin Hundhausen"
+    id: "UCzWDiAMd9d7oCrnBacgj1yw"
+    priority: medium
+  - name: "Cuberto Design"
+    id: "UCzestFrXpwSGCfcbO2pObwQ"
+    priority: medium
