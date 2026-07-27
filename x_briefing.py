@@ -42,16 +42,26 @@ def fetch_latest_digest_eml() -> bytes | None:
         imap.login(user, password)
         imap.select(folder, readonly=True)
 
-        # Neueste Mail, deren Absender auf usedigest hindeutet.
-        # SINCE-Filter auf heute wäre strenger, aber Zeitzonen machen das
-        # fehleranfällig; wir nehmen die letzte passende Mail und prüfen
-        # das Datum nicht hart — die Synthese eines 1 Tag alten Digests
-        # ist besser als gar keine X-Sektion.
-        status, data = imap.search(None, "FROM", DIGEST_FROM_HINT)
-        if status != "OK" or not data or not data[0]:
+        # Digest-Mail finden. Weiterleitungen (z.B. Proton -> GMX) schreiben
+        # oft den Absender um, daher NICHT nur auf FROM verlassen: wir suchen
+        # zusätzlich über den Betreff ("Digest") und nehmen die neueste
+        # Mail, die über irgendeinen Weg passt.
+        candidate_ids = []
+        for criterion in (("FROM", DIGEST_FROM_HINT), ("SUBJECT", "Digest")):
+            status, data = imap.search(None, *criterion)
+            if status == "OK" and data and data[0]:
+                candidate_ids.extend(data[0].split())
+
+        if not candidate_ids:
+            # Diagnose: wie viele Mails liegen überhaupt im Ordner?
+            status, alldata = imap.search(None, "ALL")
+            n = len(alldata[0].split()) if status == "OK" and alldata and alldata[0] else 0
+            print(f"X-Sektion: keine Digest-Mail in '{folder}' gefunden "
+                  f"({n} Mails im Ordner gesamt). Prüfe Weiterleitung/Ordner.")
             return None
-        ids = data[0].split()
-        latest_id = ids[-1]
+
+        # Höchste (=neueste) ID über alle Treffer
+        latest_id = sorted(set(candidate_ids), key=lambda x: int(x))[-1]
         status, msg_data = imap.fetch(latest_id, "(RFC822)")
         if status != "OK":
             return None
