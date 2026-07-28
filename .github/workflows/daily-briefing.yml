@@ -2,7 +2,7 @@ name: Daily Briefing
 
 on:
   schedule:
-    - cron: "0 5 * * *"
+    - cron: "17 3 * * *"
   workflow_dispatch: {}
 
 permissions:
