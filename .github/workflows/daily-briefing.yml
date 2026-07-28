@@ -1,9 +1,9 @@
-name: Daily Briefing
+name: Daily YouTube Briefing
 
 on:
   schedule:
     - cron: "17 3 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch: {}  # erlaubt manuelles Auslösen zum Testen
 
 permissions:
   contents: write
@@ -24,6 +24,7 @@ jobs:
       - name: Run briefing
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
