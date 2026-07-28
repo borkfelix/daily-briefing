@@ -77,7 +77,51 @@ def save_state(state):
         json.dump(state, f, indent=2, ensure_ascii=False)
 
 
+YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", "")
+
+
+def uploads_playlist_id(channel_id: str) -> str:
+    """
+    Wandelt eine Channel-ID in die ID ihrer Uploads-Playlist um.
+    UCxxxx -> UUxxxx (zweites Zeichen C->U). Reine String-Umwandlung,
+    kostet keinen API-Call.
+    """
+    if channel_id.startswith("UC"):
+        return "UU" + channel_id[2:]
+    return channel_id  # unbekanntes Format, unverändert lassen
+
+
+def fetch_via_api(channel_id, max_results=15):
+    """
+    Neueste Uploads eines Kanals über die YouTube Data API v3.
+    Kostet 1 Quota-Einheit pro Kanal (playlistItems.list).
+    Wirft bei HTTP-Fehler eine Exception (wird vom Aufrufer gefangen).
+    """
+    playlist_id = uploads_playlist_id(channel_id)
+    url = "https://www.googleapis.com/youtube/v3/playlistItems"
+    params = {
+        "part": "snippet",
+        "playlistId": playlist_id,
+        "maxResults": max_results,
+        "key": YOUTUBE_API_KEY,
+    }
+    r = requests.get(url, params=params, timeout=15)
+    r.raise_for_status()
+    data = r.json()
+    entries = []
+    for item in data.get("items", []):
+        sn = item["snippet"]
+        vid = sn.get("resourceId", {}).get("videoId")
+        title = sn.get("title")
+        if vid and title and title != "Private video":
+            entries.append({"video_id": vid, "title": title})
+    return entries
+
+
 def fetch_rss(channel_id):
+    """Fallback: kostenloser RSS-Feed. Auf Cloud-IPs oft von YouTube
+    geblockt (404), daher nur als Ausweichoption, wenn kein API-Key da
+    ist oder ein einzelner API-Abruf scheitert."""
     url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
     r = requests.get(url, timeout=15)
     r.raise_for_status()
@@ -90,6 +134,24 @@ def fetch_rss(channel_id):
     return entries
 
 
+def fetch_channel_videos(channel_id):
+    """
+    Holt neueste Videos eines Kanals: bevorzugt API, fällt bei Bedarf
+    auf RSS zurück. Wirft eine Exception nur, wenn beide Wege scheitern.
+    """
+    if YOUTUBE_API_KEY:
+        try:
+            return fetch_via_api(channel_id)
+        except Exception as api_err:
+            # Einzelfehler (z.B. gelöschter Kanal): RSS als Fallback probieren
+            try:
+                return fetch_rss(channel_id)
+            except Exception:
+                raise api_err  # ursprünglichen API-Fehler weiterreichen
+    else:
+        return fetch_rss(channel_id)
+
+
 # ---------------------------------------------------------------- Schritt 1+2
 
 def collect_new_videos(channels, state):
@@ -97,9 +159,9 @@ def collect_new_videos(channels, state):
     new_videos = []
     for ch in channels:
         try:
-            entries = fetch_rss(ch["id"])
+            entries = fetch_channel_videos(ch["id"])
         except Exception as e:
-            print(f"RSS-Fehler bei {ch['name']}: {e}")
+            print(f"Abruf-Fehler bei {ch['name']} ({ch['id']}): {e}")
             continue
 
         seen = set(state.get(ch["id"], []))
