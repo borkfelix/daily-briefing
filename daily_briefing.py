@@ -231,12 +231,26 @@ def triage_all(videos):
 
 # ---------------------------------------------------------------- Schritt 4
 
+def _fetch_transcript_segments(video_id):
+    """
+    Holt die Transkript-Segmente, kompatibel mit alter und neuer
+    youtube-transcript-api. Neu (>=1.0): Instanz + .fetch().to_raw_data().
+    Alt (<1.0): statisch YouTubeTranscriptApi.get_transcript().
+    """
+    languages = ["de", "en"]
+    if hasattr(YouTubeTranscriptApi, "fetch"):
+        # neue API (>=1.0)
+        api = YouTubeTranscriptApi()
+        fetched = api.fetch(video_id, languages=languages)
+        return fetched.to_raw_data()
+    # alte API (<1.0)
+    return YouTubeTranscriptApi.get_transcript(video_id, languages=languages)
+
+
 def get_transcript(video_id):
     for attempt in range(TRANSCRIPT_RETRIES):
         try:
-            segments = YouTubeTranscriptApi.get_transcript(
-                video_id, languages=["de", "en"]
-            )
+            segments = _fetch_transcript_segments(video_id)
             return " ".join(s["text"] for s in segments)
         except (TranscriptsDisabled, NoTranscriptFound):
             return None  # gibt es wirklich nicht, kein Retry nötig
