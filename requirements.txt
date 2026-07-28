@@ -1,6 +1,6 @@
 requests
 pyyaml
-youtube-transcript-api
+youtube-transcript-api>=1.0
 anthropic
 yt-dlp
 beautifulsoup4
